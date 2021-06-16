@@ -1,0 +1,23 @@
+.form-wrapper {
+  max-width: 70%;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.input-group {
+  padding: 10px;
+}
+
+.fa-search {
+  padding-right: 1.5%;
+  color: gray;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}

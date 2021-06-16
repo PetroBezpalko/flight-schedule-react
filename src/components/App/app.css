@@ -1,0 +1,22 @@
+.heading {
+  text-align: center;
+  color: rgb(138, 137, 137);
+  padding-top: 10%;
+  margin-bottom: 7%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.airplane-img {
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
