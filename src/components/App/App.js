@@ -8,7 +8,7 @@ function App() {
     <div id="page-container">
       <div id="content-wrap">
         <img className="airplane-img" src={img1} alt="airplane.jpg" />
-        <h1 className="heading">Розклад аеропорт "Київ"</h1>
+        <h1 className="heading">Розклад аеропорт “Київ”</h1>
         <div className="container">
           <Search />
           <Options />

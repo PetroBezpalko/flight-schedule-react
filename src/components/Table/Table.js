@@ -59,6 +59,10 @@ function Table() {
         return "Вилетів";
       case "CK":
         return "Реєстрація";
+      case "FR":
+        return "В польоті";
+      case "GC":
+        return "Посадка";
       default:
         return status;
     }

@@ -1,0 +1,26 @@
+.MuiTabs-flexContainer {
+  background-color: rgb(248, 234, 234);
+  border-bottom: 1px white solid;
+}
+
+.MuiTab-textColorPrimary {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: black;
+}
+
+.MuiTab-wrapper {
+  display: inline;
+}
+
+.MuiTab-wrapper::first-letter {
+  color: rgb(173, 169, 169);
+}

@@ -1,8 +1,7 @@
 .form-wrapper {
-  max-width: 70%;
   background-color: white;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .input-group {
@@ -10,8 +9,10 @@
 }
 
 .fa-search {
-  padding-right: 1.5%;
+  padding: 1.5%;
+  padding-right: 2%;
   color: gray;
+  border-right: 2px rgb(226, 214, 214) solid;
 }
 
 .form-control {
@@ -20,4 +21,10 @@
 
 .form-control:focus {
   box-shadow: none;
+}
+
+#button {
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 10px 60px;
 }

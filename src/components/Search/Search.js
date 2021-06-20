@@ -86,7 +86,7 @@ function Search() {
   return (
     <div className="form-wrapper">
       <div className="input-group mb-3">
-        <i className="fas fa-search fa-2x"></i>
+        <i className="fas fa-search fa-1.5x"></i>
         <input
           id="search"
           type="text"
@@ -96,6 +96,7 @@ function Search() {
           onChange={handleInputChange}
         />
         <button
+          id="button"
           className="btn btn-primary"
           type="button"
           onClick={handleSearchClick}

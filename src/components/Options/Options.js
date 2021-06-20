@@ -1,9 +1,9 @@
 import React from "react";
 import { Paper, Tabs, Tab } from "@material-ui/core";
-import FlightTakeoffIcon from "@material-ui/icons/FlightTakeoff";
-import FlightLandIcon from "@material-ui/icons/FlightLand";
 import { useDispatch } from "react-redux";
 import { toggleWay } from "../../redux/actions/flightActions";
+import { StylesProvider } from "@material-ui/core/styles";
+import "./options.css";
 
 function Options() {
   const [value, setValue] = React.useState("departure");
@@ -15,22 +15,20 @@ function Options() {
   };
 
   return (
-    <Paper square>
-      <Tabs
-        value={value}
-        indicatorColor="primary"
-        textColor="primary"
-        onChange={handleChange}
-        aria-label="tabs"
-      >
-        <Tab
-          value="departure"
-          label="ВІДПРАВЛЕННЯ"
-          icon={<FlightTakeoffIcon />}
-        />
-        <Tab value="arrival" label="ПРИБУТТЯ" icon={<FlightLandIcon />} />
-      </Tabs>
-    </Paper>
+    <StylesProvider injectFirst>
+      <Paper square>
+        <Tabs
+          value={value}
+          indicatorColor="primary"
+          textColor="primary"
+          onChange={handleChange}
+          aria-label="tabs"
+        >
+          <Tab value="departure" label="&#8599; ВІДПРАВЛЕННЯ" />
+          <Tab value="arrival" label="&#8600; ПРИБУТТЯ" />
+        </Tabs>
+      </Paper>
+    </StylesProvider>
   );
 }
 
