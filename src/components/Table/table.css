@@ -20,7 +20,15 @@ td {
 }
 
 @media (max-width: 750px) {
+  table {
+    border-spacing: 0;
+  }
+
+  th {
+    padding: 10px 0;
+  }
+
   td {
-    padding: 2px;
+    padding: 0;
   }
 }
