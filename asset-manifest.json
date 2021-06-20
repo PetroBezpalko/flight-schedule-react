@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flight-schedule-react/static/css/main.e8a089f0.chunk.css",
+    "main.css": "/flight-schedule-react/static/css/main.082b2303.chunk.css",
     "main.js": "/flight-schedule-react/static/js/main.e5200f86.chunk.js",
     "main.js.map": "/flight-schedule-react/static/js/main.e5200f86.chunk.js.map",
     "runtime-main.js": "/flight-schedule-react/static/js/runtime-main.c9c8ad1e.js",
@@ -8,14 +8,14 @@
     "static/js/2.5fd037af.chunk.js": "/flight-schedule-react/static/js/2.5fd037af.chunk.js",
     "static/js/2.5fd037af.chunk.js.map": "/flight-schedule-react/static/js/2.5fd037af.chunk.js.map",
     "index.html": "/flight-schedule-react/index.html",
-    "static/css/main.e8a089f0.chunk.css.map": "/flight-schedule-react/static/css/main.e8a089f0.chunk.css.map",
+    "static/css/main.082b2303.chunk.css.map": "/flight-schedule-react/static/css/main.082b2303.chunk.css.map",
     "static/js/2.5fd037af.chunk.js.LICENSE.txt": "/flight-schedule-react/static/js/2.5fd037af.chunk.js.LICENSE.txt",
     "static/media/airplane.a72ab1a1.jpg": "/flight-schedule-react/static/media/airplane.a72ab1a1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c9c8ad1e.js",
     "static/js/2.5fd037af.chunk.js",
-    "static/css/main.e8a089f0.chunk.css",
+    "static/css/main.082b2303.chunk.css",
     "static/js/main.e5200f86.chunk.js"
   ]
 }
